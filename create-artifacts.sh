@@ -1,3 +1,4 @@
+export PATH=${PWD}/bin:${PWD}:$PATH
 
 chmod -R 0755 ./crypto-config
 # Delete existing artifacts

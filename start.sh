@@ -5,9 +5,8 @@ docker volume prune
 
 docker-compose up -d
 
-sleep 5
+sleep 10
 ./createChannel.sh
 
 sleep 2
-
 ./deployChaincode.sh
