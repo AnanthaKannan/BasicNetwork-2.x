@@ -207,7 +207,7 @@ chaincodeInvoke() {
         -C $CHANNEL_NAME -n ${CC_NAME} \
         --peerAddresses localhost:7051 --tlsRootCertFiles $PEER0_ORG1_CA \
         --peerAddresses localhost:9051 --tlsRootCertFiles $PEER0_ORG2_CA \
-        -c '{"function": "createCar", "Args":["Car-ABCDEEE", "Audi", "R8", "Red", "Pavan"]}' \
+        -c '{"function": "createCar", "Args":["Car-ABCDEEE", "Audi", "R8", "Red", "Kannan"]}' \
         --transient "{\"car\":\"$CAR\"}"
 }
 
